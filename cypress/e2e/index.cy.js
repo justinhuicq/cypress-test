@@ -5,7 +5,7 @@ context('Caesar Cypher', () => {
     cy.visit('../../src/index.html')
   })
 
-  it('has a paragraph with Caesar Cypher', () => {
+  it('as a paragraph with Caesar Cypher', () => {
     cy.get('p').should('have.text', 'Caesar Cypher')
   })
 
